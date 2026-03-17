@@ -1,19 +1,18 @@
-# sign_language_detection
-# 🖐️ Sign Language Detection System
+# Sign Language Detection System
 
 A real-time Sign Language Detection system that uses a deep learning model to recognize hand gestures and predict corresponding alphabet letters using a webcam.
 
-## 🚀 Features
+##  Features
 
-* 📷 Real-time webcam capture using OpenCV
-* 🤖 Deep Learning model for gesture classification
-* 🔤 Predicts English alphabet letters (A–Z)
-* 🌐 Interactive UI built with Streamlit
-* ⚡ Fast and lightweight implementation
+*  Real-time webcam capture using OpenCV
+*  Deep Learning model for gesture classification
+*  Predicts English alphabet letters (A–Z)
+*  Interactive UI built with Streamlit
+*  Fast and lightweight implementation
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 * **Python**
 * **OpenCV**
@@ -23,7 +22,7 @@ A real-time Sign Language Detection system that uses a deep learning model to re
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 ├── app.py                # Main Streamlit application
@@ -34,7 +33,7 @@ A real-time Sign Language Detection system that uses a deep learning model to re
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 
 1. The webcam captures live video frames.
 2. Each frame is resized to **64x64 pixels**.
@@ -45,16 +44,16 @@ A real-time Sign Language Detection system that uses a deep learning model to re
 
 ---
 
-## 📥 Installation & Setup
+##  Installation & Setup
 
-### 1️⃣ Clone the Repository
+###  Clone the Repository
 
 ```bash
 git clone https://github.com/your-username/sign-language-detection.git
 cd sign-language-detection
 ```
 
-### 2️⃣ Install Dependencies
+### 2️ Install Dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -68,7 +67,7 @@ pip install streamlit opencv-python tensorflow numpy
 
 ---
 
-## ▶️ Run the Application
+##  Run the Application
 
 ```bash
 streamlit run app.py
@@ -76,7 +75,7 @@ streamlit run app.py
 
 ---
 
-## 🧠 Model Details
+##  Model Details
 
 * Input Shape: `(64, 64, 3)`
 * Model Type: Convolutional Neural Network (CNN)
@@ -84,14 +83,14 @@ streamlit run app.py
 
 ---
 
-## 📸 Output
+##  Output
 
 * Live webcam feed displayed on screen
 * Predicted alphabet shown in real-time
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 * Add support for **words and sentences**
 * Improve model accuracy with a larger dataset
@@ -101,14 +100,10 @@ streamlit run app.py
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Riya Dey**
 
 ---
-
-## ⭐ If you like this project
-
-Give it a ⭐ on GitHub and share it!
 
 ---
