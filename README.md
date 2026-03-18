@@ -53,7 +53,7 @@ git clone https://github.com/your-username/sign-language-detection.git
 cd sign-language-detection
 ```
 
-### 2️ Install Dependencies
+###  Install Dependencies
 
 ```bash
 pip install -r requirements.txt
