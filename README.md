@@ -111,6 +111,11 @@ https://drive.google.com/drive/folders/159ARp9j2maH5kue9wRcMGpNpuDouNwsq?usp=sha
 
 **Riya Dey**
 
+*National Institute of Technology Durgapur*  
+
+📧 [Email](mailto:riyadey3134@gmail.com)  
+🌐 [LinkedIn](https://www.linkedin.com/in/riya-dey-a31b43286)
+
 ---
 
 ---
