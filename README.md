@@ -100,6 +100,13 @@ streamlit run app.py
 
 ---
 
+## Dataset
+
+The full dataset used for training is available here:
+
+https://drive.google.com/drive/folders/159ARp9j2maH5kue9wRcMGpNpuDouNwsq?usp=sharing
+
+
 ##  Author
 
 **Riya Dey**
