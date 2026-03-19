@@ -91,6 +91,15 @@ streamlit run app.py
 ---
 
 
+##   Screenshots
+
+
+![Predictions](images/data.png)
+![Accuracy](images/accuracy.png)
+
+
+---
+
 ##  Limitations
 - Performance may decrease in poor lighting conditions or cluttered backgrounds, affecting detection accuracy.
 - The model is typically trained on a fixed set of gestures and cannot recognize gestures outside the trained classes.  
