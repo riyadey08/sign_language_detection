@@ -90,6 +90,15 @@ streamlit run app.py
 
 ---
 
+
+##  Limitations
+- Performance may decrease in poor lighting conditions or cluttered backgrounds, affecting detection accuracy.
+- The model is typically trained on a fixed set of gestures and cannot recognize gestures outside the trained classes.  
+- The model predicts individual gestures but does not understand words, sentences, or context in sign language. 
+- The system may experience latency or reduced performance on low-end devices during real-time detection.
+
+---
+
 ##  Future Improvements
 
 * Add support for **words and sentences**
