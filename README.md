@@ -1,4 +1,4 @@
-# Sign Language Detection System
+# Real-Time Sign Language Alphabet Detection System
 
 A real-time Sign Language Detection system that uses a deep learning model to recognize hand gestures and predict corresponding alphabet letters using a webcam.
 
@@ -25,11 +25,33 @@ A real-time Sign Language Detection system that uses a deep learning model to re
 ##  Project Structure
 
 ```
-├── app.py                # Main Streamlit application
-├── sign_model.keras      # Trained deep learning model
-├── part1.ipynb           # Model training notebook
-└── README.md             # Project documentation
+├── app.py
+├── part1.ipynb
+├── sign_model.keras
+├── requirements.txt
+├── images/
+│   ├── accuracy.png
+│   └── data.png
+├── README.md
 ```
+
+##  Workflow
+
+Dataset
+   ↓
+Image Preprocessing
+   ↓
+Data Augmentation
+   ↓
+CNN Training
+   ↓
+Save Model (.keras)
+   ↓
+Streamlit App
+   ↓
+Webcam Input
+   ↓
+Letter Prediction
 
 ---
 
@@ -74,10 +96,28 @@ streamlit run app.py
 
 ---
 
+##  Training Details
+
+* Image Size: 64×64
+* Batch Size: 32
+* Optimizer: Adam
+* Loss Function: Categorical Crossentropy
+* Epochs: 15
+
+---
+
 ##  Model Details
 
 * Input Shape: `(64, 64, 3)`
 * Model Type: Convolutional Neural Network (CNN)
+* CNN Architecture:
+• Conv2D (32) + MaxPooling
+• Conv2D (64) + MaxPooling
+• Conv2D (128) + MaxPooling
+• Flatten
+• Dense (128)
+• Dropout (0.5)
+• Output Layer (Softmax, 26 classes)
 * Output: 26 classes (A–Z alphabets)
 
 ---
