@@ -37,6 +37,7 @@ A real-time Sign Language Detection system that uses a deep learning model to re
 
 ##  Workflow
 
+```
 Dataset
    ↓
 Image Preprocessing
@@ -52,6 +53,7 @@ Streamlit App
 Webcam Input
    ↓
 Letter Prediction
+```
 
 ---
 
