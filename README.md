@@ -59,7 +59,6 @@ cd sign-language-detection
 pip install -r requirements.txt
 ```
 
-*(If you don't have requirements.txt, install manually:)*
 
 ```bash
 pip install streamlit opencv-python tensorflow numpy
